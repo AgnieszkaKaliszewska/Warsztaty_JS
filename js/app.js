@@ -37,4 +37,11 @@ var buttons = document.querySelectorAll( '.read-more' );
         buttons[i].addEventListener('click', showHide);
     }
 	
+	var navbar = document.querySelector( ' .navbar ' ) ;
+	
+	console.log(navbar)
+	window.addEventListener('scroll',  function() {
+     console.log(' test' )
+	 navbar.style.borderBottom = '5px solid red' ;
+    });
 });
