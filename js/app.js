@@ -44,4 +44,8 @@ var buttons = document.querySelectorAll( '.read-more' );
      console.log(' test' )
 	 navbar.style.borderBottom = '5px solid red' ;
     });
+	var buttonWroc=document.querySelector ( '.buttonWroc');
+	buttonWroc.addEventListener('click', function(){
+		window.scroll (0,0);
+	});
 });
